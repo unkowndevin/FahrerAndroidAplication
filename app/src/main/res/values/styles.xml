@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.LightRipple">
+        <item name="colorControlHighlight">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.DarkRipple">
+        <item name="colorControlHighlight">@color/blue_grey_lighten_4</item>
+    </style>
+
+    <style name="TextInputTheme" parent="TextAppearance.AppCompat">
+
+        <item name="colorControlNormal">@color/logInTextInputColorInactive</item>
+        <item name="colorControlActivated">@color/logInTextInputColorActive</item>
+        <item name="colorAccent">@color/logInTextInputColorActive</item>
+        <item name="android:textSize">22sp</item>
+
+    </style>
+
+    <style name="SignUpTextInputTheme" parent="TextAppearance.AppCompat">
+
+        <item name="colorControlNormal">@color/signUpTextInputColorInactive</item>
+        <item name="colorControlActivated">@color/signUpTextInputColorActive</item>
+        <item name="colorAccent">@color/signUpTextInputColorActive</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
+
+    <style name="SignUpDialogStyle" parent="Theme.AppCompat.Dialog.Alert">
+
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@color/colorAccent</item>
+
+    </style>
+
+    <style name="LogInRequestCallback" parent="Theme.AppCompat.Dialog.Alert">
+
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@color/colorAccent</item>
+
+    </style>
+
+    <style name="LogInRequestCallbackDialogAnimations">
+
+        <item name="android:windowEnterAnimation">@anim/log_in_request_callback_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/log_in_request_callback_dialog_exit</item>
+
+    </style>
+
+    <style name="RadioButtonTheme" parent="Theme.AppCompat.Light">
+
+        <item name="colorControlNormal">@color/signUpRadioButtonInactive</item>
+        <item name="colorControlActivated">@color/signUpRadioButtonActive</item>
+
+    </style>
+
+</resources>

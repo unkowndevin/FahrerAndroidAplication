@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+
+            android:id="@+id/main_navigation_item_diagnostic"
+            android:title="@string/main_activity_navigation_menu_diagnostic"
+            android:icon="@drawable/ic_welcome_slider_panel_second"
+            android:iconTint="@color/blue_grey"
+
+            />
+
+        <item
+
+            android:id="@+id/main_navigation_item_therapy"
+            android:title="@string/main_activity_navigation_menu_therapy"
+            android:icon="@drawable/ic_welcome_slider_panel_third"
+            android:iconTint="@color/blue_grey"
+
+            />
+
+        <item
+
+            android:id="@+id/main_navigation_item_results"
+            android:title="@string/main_activity_navigation_menu_results"
+            android:icon="@drawable/ic_find"
+            android:iconTint="@color/blue_grey"
+
+            />
+
+        <item
+
+            android:id="@+id/main_navigation_item_statistics"
+            android:title="@string/main_activity_navigation_menu_statistics"
+            android:icon="@drawable/ic_statistice"
+            android:iconTint="@color/blue_grey"
+
+            />
+
+    </group>
+
+    <item android:title="@string/main_activity_navigation_menu_account">
+
+        <menu>
+
+            <item
+
+                android:id="@+id/main_navigation_item_profile"
+                android:title="@string/main_activity_navigation_menu_profile"
+                android:icon="@drawable/ic_account"
+                android:iconTint="@color/blue_grey"
+
+                />
+
+            <item
+
+                android:id="@+id/main_navigation_item_update"
+                android:title="@string/main_activity_navigation_menu_update"
+                android:icon="@drawable/ic_update"
+                android:iconTint="@color/blue_grey"
+
+                />
+
+            <item
+
+                android:id="@+id/main_navigation_item_log_out"
+                android:title="@string/main_activity_navigation_menu_log_out"
+                android:icon="@drawable/ic_exit"
+                android:iconTint="@color/blue_grey"
+
+                />
+
+        </menu>
+
+    </item>
+
+    <item
+
+        android:id="@+id/main_navigation_item_exit"
+        android:title="@string/main_activity_navigation_menu_exit"
+
+        />
+
+
+
+</menu>

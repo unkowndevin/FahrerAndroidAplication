@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Fahrer</string>
+
+    <!--Slider strings================================================== -->
+
+    <!--Slider basics+++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <string name="welcome_slider_next_button">SIGUIENTE</string>
+    <string name="welcome_slider_skip_button">SALTAR</string>
+    <string name="welcome_slider_got_it_button">¡LO TENGO!</string>
+
+    <!--Slider panels+++++++++++++++++++++++++++++++++++++++++++++++-->
+    <string name="welcome_slider_panel_title_first">BIENVENIDO A FAHRER</string>
+    <string name="welcome_slider_panel_title_second">¿Padeces fobia?</string>
+    <string name="welcome_slider_panel_title_third">Tratamiento</string>
+    <string name="welcome_slider_panel_title_fourth">¡Consulta un medico!</string>
+    <string name="welcome_slider_panel_description_first">
+        Diagnostica y trata tu fobia a conducir
+    </string>
+    <string name="welcome_slider_panel_description_second">
+        Asegurate que el miedo que sientes sea una fobia
+    </string>
+    <string name="welcome_slider_panel_description_third">
+        Se aplicará una TERAPIA DE EXPOSICIÓN EN REALIDAD VIRTUAL
+    </string>
+    <string name="welcome_slider_panel_description_fourth">
+        No te curaras si nunca consultas a un profesional, pero te ayudaremos a empezar
+    </string>
+
+    <!--Slider strings end==================================================-->
+
+    <!--LogIn Strings=======================================================-->
+
+    <string name="log_in_title">Inicia Sesión</string>
+    <string name="log_sign_hint_email">Correo electrónico</string>
+    <string name="log_sign_hint_password">Contraseña</string>
+    <string name="log_in_description">Para empezar . . .</string>
+    <string name="log_in_button_register">No estas registrado, ¡hazlo ahora!</string>
+    <string name="log_in_button_submit">ENVIAR</string>
+    <string name="log_in_title_description">Llena el formulario con los datos que ingresaste en tu registro</string>
+    <string name="log_in_toolbar_title">Primeros pasos</string>
+
+
+    <!--end========================================================================-->
+
+    <!--SignUp Strings-->
+
+    <string name="sign_up_card_title">Registrate</string>
+    <string name="sign_up_card_descripcion">¡No olvides ningún campo!</string>
+    <string name="sign_up_hint_name">Nombre</string>
+    <string name="sign_up_hint_last_name">Apellido(s)</string>
+    <string name="sign_up_hint_nick_name">Nombre de usuario</string>
+    <string name="sign_up_privacy">He leído y acepto las Politicas de Privacidad</string>
+    <string name="sign_up_button_submit">ENVIAR</string>
+    <string name="sign_up_hint_genre">Sexo</string>
+    <string name="sign_up_hint_genre_man">Hombre</string>
+    <string name="sign_up_hint_genre_woman">Mujer</string>
+    <string name="sign_up_hint_date">haz clic para seleccionar tu edad</string>
+    <string-array name="sign_up_places">
+
+        <item>México</item>
+        <item>Estados Unidos</item>
+
+    </string-array>
+    <string-array name="sign_up_places_abbr">
+
+        <item>MX</item>
+        <item>US</item>
+
+    </string-array>
+    <string name="sign_up_hint_places">Escoge tu pais</string>
+    <string name="sign_up_dialog_callback_title_success">Exito</string>
+    <string name="sign_up_privacy_false_title">Aviso de privacidad</string>
+    <string name="sign_up_privacy_false_description">No te puedes registrar si no aceptas el aviso de privacidad</string>
+
+    <!--end====================================================================-->
+
+    <!--LogIn request callback dialog========================================-->
+
+    <string name="log_in_dialog_callback_title_wrong">¡No te encontramos!</string>
+    <string name="log_in_dialog_callback_title_error">Algo ha pasado ...</string>
+    <string name="log_in_dialog_callback_done_button">Cerrar</string>
+
+    <!--end==================================================================-->
+
+
+    <!--NavigationDrawer strings=======================================-->
+
+    <string name="main_activity_navigation_menu_diagnostic">Diagnóstico</string>
+    <string name="main_activity_navigation_menu_therapy">Terapia</string>
+    <string name="main_activity_navigation_menu_results">Resultado</string>
+    <string name="main_activity_navigation_menu_statistics">Estadisticas</string>
+    <string name="main_activity_navigation_menu_account">Cuenta</string>
+    <string name="main_activity_navigation_menu_update">Actualizar datos</string>
+    <string name="main_activity_navigation_menu_log_out">Cerrar Sesión</string>
+    <string name="main_activity_navigation_menu_profile">Perfil</string>
+    <string name="main_activity_navigation_menu_exit">Salir</string>
+    <string name="main_activity_navigation_drawer_open">Abierto</string>
+    <string name="main_activity_navigation_drawer_close">Cerrado</string>
+
+    <!--end=============================================================-->
+
+    <!--Diagnostic-->
+
+    <string name="diagnostic_warnings_appbar_title">Diagnóstico</string>
+    <string name="diagnostic_warnings_title">Indicaciones</string>
+    <string name="diagnostic_warnings_description">
+
+        Antes de empezar el dianóstico hay algunas cosas que debes saber:\n
+        \t• Es necesario que estes contectado a internet durante todo el diagnostico.\n
+        \t• El diagnostico será como una conversación.\n
+        \t• No estarás hablando con otra persona, por lo que puede que haya palabras ó frases que NO sean reconocidas.\n
+        \t• Procura que tus respuestas sean cortas y concisas.\n
+        \t• Haz el diagnostico en un lugar donde te sientas tranquilo.\n
+        \t• Haz el diagnostico en un lugar tranquilo en el que puedas relajarte.\n
+        \t• Si es mejor para ti, puedes escuchar musica para relajarte durante el diagnostico.\n
+        \t• Se sincero en todas las respuestas, es por tu bien.\n
+        \t• El tiempo de duración ideal para el diagnostico es de 20 minutos.\n
+        \t• Puedes terminar el diagnostico en cualquier momento si asi lo deseas, solo debes escribir \"terminar\" o \"adios\".\n
+        \t• Al final del diagnostico se te darán los resultados.\n
+        \t• Este diagnostico no es lo mismo que acudir con un especialista, así que sí el diagnóstico indica que tienes fobia a conducir verificalo con un psicologo.\n
+
+
+
+    </string>
+    <string name="diagnostic_warnings_button">COMENZAR</string>
+    <string name="diagnostic_chat_hint_message">Escribe aqui tu mensaje</string>
+
+    <!--end-->
+
+</resources>

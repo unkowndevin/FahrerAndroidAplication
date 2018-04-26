@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Basic colors\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+
+    <color name="light_blue">#03a9f4</color>
+    <color name="light_blue_lighten_3">#81d4fa</color>
+    <color name="light_blue_darken_4">#01579b</color>
+    <color name="light_blue_darken_3">#0277bd</color>
+    <color name="blue_accent_4">#2962ff</color>
+    <color name="light_blue_darken_2">#0288d1</color>
+    <color name="light_blue_darken_1">#039be5</color>
+    <color name="light_blue_lighten_1">#29b6f6</color>
+    <color name="light_blue_lighten_2">#4fc3f7</color>
+    <color name="light_blue_lighten_4">#b3e5fc</color>
+    <color name="indigo_darken_1">#3949ab</color>
+    <color name="indigo_darken_2">#303f9f</color>
+    <color name="indigo_darken_3">#283593</color>
+    <color name="indigo_darken_4">#1a237e</color>
+    <color name="blue_grey_darken_4">#263238</color>
+    <color name="light_blue_lighten_4_alpha">#73ffffff</color>
+    <color name="blue_grey_darken_4_alpha">#73263238</color>
+    <color name="white_alpha">#AAffffff</color>
+    <color name="white_alpha_3">#ddffffff</color>
+    <color name="white_alpha_2">#660288d1</color>
+    <color name="blue_grey_lighten_3">#b0bec5</color>
+    <color name="blue_grey_darken_2">#455a64</color>
+    <color name="purple_darken_1">#8e24aa</color>
+    <color name="deep_purple">#673ab7</color>
+    <color name="purple_lighten_2">#ba68c8</color>
+    <color name="blue_grey">#607d8b</color>
+    <color name="blue_grey_lighten_4">#cfd8dc</color>
+    <color name="blue_grey_lighten_2">#90a4ae</color>
+
+
+    <!--Color identifiers\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+
+    <!--Toolbar colors=====================================================-->
+    <color name="colorPrimary">@color/light_blue</color>
+    <color name="colorPrimaryDark">@color/blue_grey_darken_4</color>
+    <color name="colorAccent">@color/blue_accent_4</color>
+    <!--Toolbar colors end==============================================-->
+
+    <!--welcomeSlider colors============================================-->
+
+    <!--Active dot background colors+++++++++++++++++++++++++++++++++++++-->
+    <color name="welcomeSliderActiveDotBackgroundFirst">@color/light_blue_lighten_4_alpha</color>
+    <color name="welcomeSliderActiveDotBackgroundSecond">@color/light_blue_lighten_4_alpha</color>
+    <color name="welcomeSliderActiveDotBackgroundThird">@color/light_blue_lighten_4_alpha</color>
+    <color name="welcomeSliderActiveDotBackgroundFourth">@color/light_blue_lighten_4_alpha</color>
+
+    <!--Inactive dor background colors+++++++++++++++++++++++++++++++++++-->
+    <color name="welcomeSliderInactiveDotBackgroundFirst">@color/blue_grey_darken_4_alpha</color>
+    <color name="welcomeSliderInactiveDotBackgroundSecond">@color/blue_grey_darken_4_alpha</color>
+    <color name="welcomeSliderInactiveDotBackgroundThird">@color/blue_grey_darken_4_alpha</color>
+    <color name="welcomeSliderInactiveDotBackgroundFourth">@color/blue_grey_darken_4_alpha</color>
+
+    <!--Array background colors++++++++++++++++++++++++++++++++++++++++++-->
+    <array name="welcomeSliderArrayActiveDotBackgrounds">
+        <item>@color/welcomeSliderActiveDotBackgroundFirst</item>
+        <item>@color/welcomeSliderActiveDotBackgroundSecond</item>
+        <item>@color/welcomeSliderActiveDotBackgroundThird</item>
+        <item>@color/welcomeSliderActiveDotBackgroundFourth</item>
+    </array>
+
+    <array name="welcomeSliderArrayInactiveDotBackgrounds">
+        <item>@color/welcomeSliderInactiveDotBackgroundFirst</item>
+        <item>@color/welcomeSliderInactiveDotBackgroundSecond</item>
+        <item>@color/welcomeSliderInactiveDotBackgroundThird</item>
+        <item>@color/welcomeSliderInactiveDotBackgroundFourth</item>
+    </array>
+
+    <!--welcome Slider colors end===========================================-->
+
+    <!--LogIn colors======================================================-->
+
+    <color name="logInCardTitleBackground">@color/light_blue</color>
+    <color name="logInCardTitleDescription">@color/white_alpha</color>
+    <color name="logInTextInputColorInactive">@color/light_blue</color>
+    <color name="logInTextInputColorActive">@color/blue_accent_4</color>
+    <color name="logInTextInputColorTextInactive">@color/blue_grey_lighten_3</color>
+    <color name="logInDescriptionText">@color/blue_grey_darken_2</color>
+
+    <!--end================================================================-->
+
+    <!--SignUp colors======================================================-->
+
+    <color name="signUpCardTitleBackground">@color/light_blue_darken_3</color>
+    <color name="signUpCardTitleBreaker">@color/blue_grey_lighten_3</color>
+    <color name="signUpTextInputColorInactive">@color/light_blue</color>
+    <color name="signUpTextInputColorActive">@color/blue_accent_4</color>
+    <color name="signUpRadioButtonInactive">@color/blue_grey_lighten_2</color>
+    <color name="signUpRadioButtonActive">@color/blue_accent_4</color>
+
+    <!--end=================================================================-->
+
+    <!--SignUp Request Callback Dialog=====================================-->
+
+    <color name="signUpRequestCallbackDialogTitleTextColor">@color/light_blue_darken_3</color>
+    <color name="signUpRequestCallbackDialogLineBreaker">@color/blue_grey_lighten_3</color>
+    <color name="signUpRequestCallbackDialogButtonTint">@android:color/white</color>
+    <color name="signUpRequestCallbackDialogButtonTextColor">@color/blue_grey</color>
+
+    <!--end===================================================================-->
+
+    <!--NavigationDrawer colors===============================================-->
+
+    <color name="navigationHeaderGeneralTextColor">@android:color/white</color>
+    <color name="navigationHeaderEmailTextColor">@color/white_alpha_3</color>
+    <color name="navigationHeaderDataCardColor">@color/white_alpha_2</color>
+    <color name="navigationHeaderDataTextColor">@color/blue_grey</color>
+
+    <!--end===================================================================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

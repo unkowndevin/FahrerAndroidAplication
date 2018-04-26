@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/main_navigation_header_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/main_navigation_header_padding"
+    android:background="@drawable/navigation_header"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+
+    <ImageView
+        android:layout_width="@dimen/main_navigation_header_account_icon_width_height"
+        android:layout_height="@dimen/main_navigation_header_account_icon_width_height"
+        android:src="@drawable/ic_account"
+        android:paddingBottom="@dimen/main_navigation_header_account_icon_padding_bottom"
+        android:tint="@color/navigationHeaderGeneralTextColor"/>
+
+    <TextView
+        android:id="@+id/main_activity_navigation_header_nick_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_navigation_header_text_size_title"
+        android:textColor="@color/navigationHeaderGeneralTextColor"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/main_activity_navigation_header_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/main_navigation_header_account_icon_padding_bottom"
+        android:textSize="@dimen/main_navigation_header_text_size_normal"
+        android:textColor="@color/navigationHeaderEmailTextColor"
+        />
+
+
+
+</LinearLayout>

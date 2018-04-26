@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sign_up_dialog"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sign_up_dialog_card_title_background_height"
+                android:background="@color/signUpCardTitleBackground">
+
+                <ImageView
+                    android:id="@+id/sign_up_dialog_close_icon"
+                    android:layout_width="@dimen/sign_up_dialog_icon_width_height"
+                    android:layout_height="@dimen/sign_up_dialog_icon_width_height"
+                    android:layout_margin="@dimen/sign_up_dialog_icon_margin"
+                    android:src="@drawable/ic_sign_up_dialog_close"
+                    />
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true"
+                android:layout_marginTop="@dimen/sign_up_dialog_card_margin_top"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/sign_up_dialog_card_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sign_up_dialog_card_title_height"
+                        android:orientation="vertical"
+                        android:padding="@dimen/sign_up_dialog_card_padding">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/sign_up_dialog_card_title_text_size"
+                            android:text="@string/sign_up_card_title"
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sign_up_card_descripcion"/>
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/sign_up_dialog_card_line_breaker"
+                        android:layout_below="@id/sign_up_dialog_card_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/signUpCardTitleBreaker"/>
+
+                    <LinearLayout
+                        android:layout_below="@id/sign_up_dialog_card_line_breaker"
+                        android:id="@+id/sig_up_dialog_card_form"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/sign_up_dialog_card_form_padding"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/sign_up_dialog_text_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:lines="1"
+                                android:hint="@string/sign_up_hint_name"
+                                android:inputType="textPersonName"
+                                android:theme="@style/SignUpTextInputTheme"
+                                />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/sign_up_dialog_text_last_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/sign_up_hint_last_name"
+                                android:lines="1"
+                                android:inputType="textPersonName"
+                                android:theme="@style/SignUpTextInputTheme"
+                                />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/sign_up_dialog_text_nick_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:lines="1"
+                                android:hint="@string/sign_up_hint_nick_name"
+                                android:inputType="textPersonName"
+                                android:theme="@style/SignUpTextInputTheme"
+                                />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/sign_up_dialog_text_email"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:lines="1"
+                                android:hint="@string/log_sign_hint_email"
+                                android:inputType="textEmailAddress"
+                                android:theme="@style/SignUpTextInputTheme"
+                                />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            >
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/sign_up_dialog_text_password"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:lines="1"
+                                android:hint="@string/log_sign_hint_password"
+                                android:inputType="textPassword"
+                                android:theme="@style/SignUpTextInputTheme"
+                                />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/sign_up_dialog_text_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/sign_up_hint_date"
+                            android:clickable="true"
+                            android:textColor="@color/signUpRadioButtonActive"
+                            android:textAllCaps="true"
+                            android:background="?attr/selectableItemBackground"
+                            android:theme="@style/AppTheme.DarkRipple"
+                            android:focusable="true"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp">
+
+                            <Spinner
+                                android:id="@+id/sign_up_dialog_text_place"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:prompt="@string/sign_up_hint_places"/>
+
+                        </LinearLayout>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/sign_up_hint_genre"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/sign_up_dialog_genre_woman"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:theme="@style/RadioButtonTheme"
+                                android:text="@string/sign_up_hint_genre_woman"
+                                />
+
+                            <RadioButton
+                                android:id="@+id/sign_up_dialog_genre_man"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/sign_up_hint_genre_man"
+                                android:theme="@style/RadioButtonTheme"
+
+                                />
+
+                        </RadioGroup>
+
+                        <CheckBox
+                            android:id="@+id/sign_up_dialog_privacy"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/sign_up_privacy"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_below="@id/sig_up_dialog_card_form"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:padding="@dimen/sign_up_dialog_card_form_padding">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/sign_up_dialog_button_submit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sign_up_button_submit"
+                            android:backgroundTint="@color/signUpCardTitleBackground"
+                            android:textColor="@android:color/white"
+                            android:theme="@style/AppTheme.LightRipple"
+                            />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackground"
+        android:theme="@style/AppTheme.LightRipple"/>
+
+
+</RelativeLayout>
