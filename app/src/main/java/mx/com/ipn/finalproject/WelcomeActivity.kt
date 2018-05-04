@@ -37,6 +37,10 @@ class WelcomeActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
         this.checkingFirstTimeLaunch();
         //final===============================================
         setContentView(R.layout.activity_welcome);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            val w = window // in Activity's onCreate() for instance
+            w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS)
+        }
 
         //Se inicializan las variables================
         this.init();
@@ -55,8 +59,11 @@ class WelcomeActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
     override fun onWindowFocusChanged(hasFocus: Boolean) {
 
         //Poniendo la app inmersiva
-        super.onWindowFocusChanged(hasFocus);
+        /*super.onWindowFocusChanged(hasFocus);
         if(hasFocus){
+
+
+
 
             super.getWindow().decorView.systemUiVisibility =
                 (View.SYSTEM_UI_FLAG_LAYOUT_STABLE
@@ -67,7 +74,7 @@ class WelcomeActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
                 or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
 
 
-        }
+        }*/
 
     }
 

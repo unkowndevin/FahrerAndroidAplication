@@ -42,12 +42,12 @@ class RequestHandler constructor(){
         }
 
         //POST requests handler
-        fun <T> requestPOST(
+        fun <Any> requestPOST(
                 url : String,
                 context : Context,
                 data : JSONObject/*Send data as JSON to the API*/,
-                callback : (response : JSONObject) -> T,
-                errorCallback: (error : VolleyError) -> T){
+                callback : (response : JSONObject) -> Any,
+                errorCallback: (error : VolleyError) -> Any){
             val jsonReq : JsonObjectRequest =
                     JsonObjectRequest(
                         Request.Method.POST,

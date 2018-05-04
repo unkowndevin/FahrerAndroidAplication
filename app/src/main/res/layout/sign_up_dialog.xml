@@ -4,7 +4,13 @@
     android:layout_height="match_parent"
     android:id="@+id/sign_up_dialog"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@android:color/white">
+    android:background="@drawable/white_wallpaper">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88ffffff"
+        />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -17,7 +23,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/sign_up_dialog_card_title_background_height"
-                android:background="@color/signUpCardTitleBackground">
+                android:background="@color/logInCardTitleBackground">
 
                 <ImageView
                     android:id="@+id/sign_up_dialog_close_icon"

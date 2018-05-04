@@ -28,7 +28,6 @@ class LogInActivity : AppCompatActivity() {
 
     private var container : ViewGroup? = null;
     private var placesArray : JSONArray? = null;
-    private var choosenPlace : String? = null;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,32 +38,13 @@ class LogInActivity : AppCompatActivity() {
         //Inicializando propiedades
         this.init();
 
-        //Aparenciendo contenido
-        this.showContent();
-
     }
 
     private fun init(){
 
         this.container = log_in_container as ViewGroup;
         this.getPlaces();
-        val toolbar : Toolbar = log_in_toolbar as Toolbar;
-        super.setSupportActionBar(toolbar);
 
-    }
-
-    private fun showContent(){
-
-        //Agregar el formulario de inicio se sesion con un segundo de retraso
-        var card = log_in_card_container as CardView;
-        android.os.Handler().postDelayed(
-                object : Runnable{
-                    override fun run() {
-                        card.visibility = View.VISIBLE;
-                    }
-
-                }, 5
-        );
     }
 
     fun showSignUpDialog(view : View?){
